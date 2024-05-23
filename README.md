@@ -1,2 +1,4 @@
 # Proyectos
-Proyectos de Machine Learning
+ ML PROJECTS
+1. [ClassificaTion (KNN,DECISION TREE AND LOGISTIC REGRESSION)] 
+2. 
