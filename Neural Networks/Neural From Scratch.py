@@ -144,7 +144,7 @@ class NeuralNetwork:
 
         # Calculamos la perdida total al final de cada iteracion
 
-        if epoch % 10 ==0 :
+        if epoch % 10 == 0 :
            y_preds =np.apply_along_axis(self.feedforward,1,data)
            loss=mse_loss(all_y_trues,y_preds)
            print("Perdida : %.3f" % (epoch,loss))
@@ -168,9 +168,6 @@ y = np.array([
     #Entrenamos nuestra red
     
 red= NeuralNetwork()
-
-
-
 red.train(datos,y)
 
 
